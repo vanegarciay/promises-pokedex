@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Flexo;
+    src: url(../font/Flexo/Flexo-Regular.otf);
+}
+@font-face {
+    font-family: Flexo;
+    src: url(../font/Flexo/Flexo-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Flexo;
+    src: url(../font/Flexo/Flexo-BoldIt.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+body, h1 {
+    font-family: Flexo;
+}
+
+h1 {
+    font-weight: normal;
+    color: #E84848;
+}
+
+input#pokemon_buscado {
+    padding-left: 2em;
+}
+
+div.pokemon-single {
+    cursor: pointer;
+}
+
+div.pokemon-single img.pokemon {
+    width: 100%;
+}
+
+div.pokemon-content {
+    margin: 0.2em;
+    background-color: #EFEFEF;
+}
+
+p.pokemon-icons {
+    width: 80%;
+    background-color: white;
+    border-radius: 3em 3em 0 0;
+    margin: 0 auto;
+}
+
+p.pokemon-icons img {
+    display: inline-block;
+    width: 20%;
+    padding: 0.3em;
+}
+
+p.pokemon-name {
+    width: 100%;
+    background-color: white;
+    border-radius: 1em 1em 0 0;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #646464;
+    text-transform: capitalize;
+}
+
+div#pokemon-modal-container h4 {
+    text-transform: capitalize;
+}

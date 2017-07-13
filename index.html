@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokedéx</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icon/favicon.ico" type="image/gif">
+    <!-- Zoom desde mobile-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="center-align">Pokedéx</h1>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <label for="pokemon_buscado"><i class="material-icons prefix">search</i></label>
+                        <input id="pokemon_buscado" type="text" class="validate">
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <section id="pokemones">
+            <div class="row">
+                <div id="pokemones-container" class="col s12 m12">
+                </div>
+            </div>
+        </section>
+        <!-- Modal Structure -->
+        <div id="pokemon-modal-container" class="modal">
+        </div>
+        <div id="pokemon-modal" class="modal">
+            <div class="modal-content">
+                <a href="#!" class="modal-action modal-close waves-effect btn-flat align right"><img src="assets/icon/cross-out.png"></a>
+                <h4>Nombre de pokemón</h4>
+                <img class="modal-img" src="">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
+    <!-- Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <!-- Archivo js-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
